@@ -39,7 +39,6 @@ const AvailabaleTechnology = ({
           <div className="flex justify-between items-center">
             <div>
               <h2 className="font-bold text-xl">Your Stack</h2>
-
               <p className="text-xs text-gray-500 mt-1">
                 {selectedTechnologies.length} Technologies Selected
               </p>
