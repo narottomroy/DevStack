@@ -15,11 +15,7 @@ interface TechnologyProps {
   setSelectedTechnologies: Dispatch<SetStateAction<ITechnology[]>>;
 }
 
-const Technology = ({
-  technologyPromise,
-  selectedTechnologies,
-  setSelectedTechnologies,
-}: TechnologyProps) => {
+const Technology = ({ technologyPromise, selectedTechnologies,setSelectedTechnologies}: TechnologyProps) => {
   const technologys = use(technologyPromise);
 
   return (
