@@ -13,17 +13,13 @@ import "./index.css";
 function App() {
   const technologyFetch = async (): Promise<ITechnology[]> => {
     const res = await fetch("/data.json");
-
     const data = await res.json();
-
     return data;
   };
 
   const technologyPromise = technologyFetch();
 
-  const [selectedTechnologies, setSelectedTechnologies] = useState<
-    ITechnology[]
-  >([]);
+  const [selectedTechnologies, setSelectedTechnologies] = useState<ITechnology[]>([]);
 
   return (
     <>
