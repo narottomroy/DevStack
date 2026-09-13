@@ -11,7 +11,7 @@ const Hero = () => {
                     <h1 className="text-4xl font-semibold leading-tight sm:text-5xl lg:text-6xl">
                         Build Your Ideal
                         <br />
-                        <span className="font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
+                        <span className="font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent sm:text-2xl">
                             Development Stack
                         </span>
                     </h1>
@@ -40,7 +40,7 @@ const Hero = () => {
                 <div className="flex w-full justify-center lg:w-1/2">
                     <img
                         src={Banner}
-                        alt="Development stack illustration"
+                        alt="DevStack Banner"
                         className="w-full max-w-sm object-contain sm:max-w-md"
                     />
                 </div>

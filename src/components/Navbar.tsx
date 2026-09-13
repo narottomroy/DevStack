@@ -5,15 +5,10 @@ import logo from "../assets/logo-text.png";
 const Navbar = () => {
     return (
         <div className="sticky top-0 z-50 bg-base-100 shadow-sm">
-
             <div className="mx-auto w-full max-w-7xl px-4">
-
                 <div className="navbar min-h-16 bg-base-100">
-
                     <div className="navbar-start">
-
                         <div className="dropdown">
-
                             <div
                                 tabIndex={0}
                                 role="button"

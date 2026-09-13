@@ -15,7 +15,7 @@ const AvailabaleTechnology = ({
 }: IAvailableTechnologyProps) => {
   const handleRemoveAll = () => {
     setSelectedTechnologies([]);
-    toast.success("All technologies removed!");
+    toast.error("All technologies removed!");
   };
 
   const handleRemoveTechnology = (id: number) => {
@@ -28,7 +28,7 @@ const AvailabaleTechnology = ({
     );
 
     if (removedTechnology) {
-      toast.info(`${removedTechnology.name} removed from stack!`);
+      toast.error(`${removedTechnology.name} removed from stack!`);
     }
   };
 
